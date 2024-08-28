@@ -79,7 +79,6 @@ if __name__ == "__main__":
         start_lats, start_longs, end_lats, end_longs, trip_durations, start_times = batch
         print(f"Batch of start latitudes: {start_lats}")
         print(f"Batch of trip durations: {trip_durations}")
-        break  # Only show the first batch for brevity
+        break  # Only to show the first batch
 
-    # Visualization (optional)
     visualize_data(dataloader.dataset)
